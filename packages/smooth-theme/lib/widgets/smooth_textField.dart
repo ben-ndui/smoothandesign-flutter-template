@@ -42,7 +42,7 @@ class SmoothTextField extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.start,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      SmoothText(title: label, vertical: 5.0, horizontal: 0.0)
+                      SmoothText(title: label, vertical: 2.0, horizontal: 30.0)
                     ],
                   ),
                 )
@@ -55,8 +55,12 @@ class SmoothTextField extends StatelessWidget {
                 child: TextFormField(
                   obscureText: isPasswordField,
                   decoration: InputDecoration(
+                    prefix: Text('|'),
                     hintText: hintText,
-                    border: const OutlineInputBorder(),
+                    hintStyle: TextStyle(fontStyle: FontStyle.italic),
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(100.0)
+                    ),
                   ),
                 ),
               )

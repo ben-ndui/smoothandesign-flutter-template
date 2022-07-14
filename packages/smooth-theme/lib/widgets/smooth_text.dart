@@ -29,7 +29,6 @@ class SmoothText extends StatelessWidget {
         style: style ?? TextStyle(
           fontSize: 20.0,
           color: SmoothColor.textPrimary,
-          fontWeight: FontWeight.bold,
         ),
       ),
     );

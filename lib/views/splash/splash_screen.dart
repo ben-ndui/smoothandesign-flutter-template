@@ -12,9 +12,9 @@ class SplashScreen extends StatelessWidget {
   }
 
   Widget splashBody(BuildContext context) {
-    return ListView(
-      shrinkWrap: true,
-      padding: EdgeInsets.zero,
+    return Column(
+      mainAxisSize: MainAxisSize.max,
+      mainAxisAlignment: MainAxisAlignment.center,
       children: const [
         SmoothTextField(label: "label", hintText: "hintText", isPasswordField: false),
       ],
