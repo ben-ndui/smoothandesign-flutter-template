@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:smoothTheme/constants/smooth_color.dart';
-import 'package:smoothTheme/widgets/smooth_button_link.dart';
+import 'package:smoothTheme/widgets/smooth_button.dart';
 import 'package:smoothTheme/widgets/smooth_text.dart';
 
 class SmoothTextField extends StatelessWidget {
@@ -100,7 +100,7 @@ class SmoothTextField extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               const FaIcon(FontAwesomeIcons.camera),
-              SmoothButtonLink(
+              SmoothButton(
                   title: "Choisissez la photo",
                   onPressed: () {
                     //TODO: Make user select picture from gallery
