@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:smoothTheme/constants/smooth_color.dart';
-import 'package:smoothTheme/constants/widgets/smooth_text.dart';
+import 'package:smoothTheme/widgets/smooth_text.dart';
 
 class SmoothDefaultButton extends StatelessWidget {
   final String title;

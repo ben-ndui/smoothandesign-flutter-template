@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:smoothTheme/constants/widgets/smooth_app_bar.dart';
-import 'package:smoothTheme/constants/widgets/smooth_textField.dart';
+import 'package:smoothTheme/widgets/smooth_app_bar.dart';
+import 'package:smoothTheme/widgets/smooth_textField.dart';
 
 class SearchScreen extends StatelessWidget {
   const SearchScreen({Key? key}) : super(key: key);
