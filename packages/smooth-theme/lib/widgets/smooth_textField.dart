@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:smoothTheme/constants/smooth-configs.dart';
 import 'package:smoothTheme/constants/smooth_color.dart';
 import 'package:smoothTheme/widgets/smooth_button.dart';
 import 'package:smoothTheme/widgets/smooth_text.dart';
@@ -11,6 +12,8 @@ class SmoothTextField extends StatelessWidget {
   final bool? isImageOne;
   final double? vSymetric;
   final double? hSymetric;
+  final TextEditingController? controller;
+  final Function(String)? onChange;
 
   const SmoothTextField({
     Key? key,
@@ -19,7 +22,7 @@ class SmoothTextField extends StatelessWidget {
     required this.isPasswordField,
     this.isImageOne,
     this.vSymetric,
-    this.hSymetric,
+    this.hSymetric, this.controller, this.onChange,
   }) : super(key: key);
 
   @override
@@ -42,7 +45,7 @@ class SmoothTextField extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.start,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      SmoothText(title: label, vertical: 5.0, horizontal: 0.0)
+                      SmoothText(title: label, vertical: 5.0, horizontal: 20.0, style: TextStyle(fontWeight: FontWeight.normal),)
                     ],
                   ),
                 )
@@ -53,10 +56,14 @@ class SmoothTextField extends StatelessWidget {
             children: [
               Expanded(
                 child: TextFormField(
+                  controller: controller,
+                  onChanged: onChange,
                   obscureText: isPasswordField,
                   decoration: InputDecoration(
                     hintText: hintText,
-                    border: const OutlineInputBorder(),
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(20.0)
+                    ),
                   ),
                 ),
               )

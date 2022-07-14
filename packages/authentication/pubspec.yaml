@@ -9,6 +9,15 @@ dependencies:
   flutter:
     sdk: flutter
 
+  firebase_auth: ^3.4.2
+  firebase_core: ^1.19.2
+
+
+
+  smoothDefaultModels:
+    path: ../smooth-default-model
+    #  git:
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

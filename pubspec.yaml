@@ -41,6 +41,9 @@ dependencies:
   auto_route: ^4.2.1
   syncfusion_flutter_calendar: ^20.2.38
 
+  firebase_auth: ^3.4.2
+  firebase_core: ^1.19.2
+
   # Personal package
   authentication:
     path: ./packages/authentication
@@ -48,6 +51,10 @@ dependencies:
 
   smoothTheme:
     path: ./packages/smooth-theme
+  #  git:
+
+  smoothDefaultModels:
+    path: ./packages/smooth-default-model
   #  git:
 
 

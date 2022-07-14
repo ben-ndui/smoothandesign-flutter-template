@@ -22,7 +22,7 @@ class SplashScreen extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          const Expanded(child: const SmoothLogo(url: "Entrer")),
+          const Expanded(child: SmoothLogo(url: "Entrer")),
           SmoothButton(title: "Entrer", color: SmoothColor.white, plain: true, onPressed: (){
             context.router.push(const SmoothLogin());
           }),
