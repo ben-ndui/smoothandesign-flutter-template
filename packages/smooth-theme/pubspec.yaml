@@ -1,0 +1,35 @@
+name: smoothTheme
+author: Ben NDUI
+company: Smooth & Design
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.3 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  auto_size_text: ^3.0.0
+  google_fonts: ^3.0.1
+  font_awesome_flutter: ^10.1.0
+  animate_do: ^2.1.0
+  flutter_svg: ^1.1.1+1
+  provider: ^6.0.3
+  auto_route: ^4.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #  - assets/
