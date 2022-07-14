@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:smoothTheme/themes/smooth_color.dart';
-import 'package:smoothTheme/themes/smoothwidgets/smooth_button_link.dart';
-import 'package:smoothTheme/themes/smoothwidgets/smooth_text.dart';
+import 'package:smoothTheme/constants/smooth_color.dart';
+import 'package:smoothTheme/constants/widgets/smooth_button_link.dart';
+import 'package:smoothTheme/constants/widgets/smooth_text.dart';
 
 class SmoothTextField extends StatelessWidget {
   final String label;

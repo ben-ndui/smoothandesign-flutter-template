@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:smoothTheme/themes/smoothwidgets/smooth_textField.dart';
+import 'package:smoothTheme/constants/widgets/smooth_textField.dart';
 
 class SplashScreen extends StatelessWidget {
   const SplashScreen({Key? key}) : super(key: key);

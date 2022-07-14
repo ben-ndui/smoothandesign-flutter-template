@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:smoothTheme/themes/smooth_color.dart';
+import 'package:smoothTheme/constants/smooth_color.dart';
 
 class SmoothTile extends StatelessWidget {
   final String title;

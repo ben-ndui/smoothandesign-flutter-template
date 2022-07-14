@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:smoothTheme/model/smooth_search_result_model.dart';
-import 'package:smoothTheme/themes/configs.dart';
+import 'package:smoothTheme/constants/configs.dart';
 
 class SmoothSearch extends SearchDelegate {
   @override

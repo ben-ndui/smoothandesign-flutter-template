@@ -3,7 +3,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:provider/provider.dart';
 import 'package:smoothTheme/controllers/smooth_bottom_bar_controller.dart';
 import 'package:smoothTheme/model/smooth_menu_item.dart';
-import 'package:smoothTheme/themes/smooth_color.dart';
+import 'package:smoothTheme/constants/smooth_color.dart';
 
 class SmoothBottomBar extends StatefulWidget {
   final List<SmoothMenuItem> bottomItemList;

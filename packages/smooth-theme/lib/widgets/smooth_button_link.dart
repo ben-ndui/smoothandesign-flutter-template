@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:smoothTheme/themes/smooth_color.dart';
+import 'package:smoothTheme/constants/smooth_color.dart';
 
 class SmoothButtonLink extends StatelessWidget {
   final String title;
